@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quote Fun</title>
+    <!-- Montserrat Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- My JS -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quote Fun</h1>
+      <p>Add a new quote:</p>
+      <form>
+        <input
+          type="text"
+          placeholder="Type quote"
+          class="quote-input"
+          required
+        />
+        <input type="text" placeholder="Author" class="author-input" required />
+        <div class="form-buttons">
+          <button class="add-quote">Add Quote</button>
+          <button class="remove-last">Remove Last Added Quote</button>
+        </div>
+      </form>
+      <hr />
+      <button class="show-quote">Show Random Quote</button>
+      <button class="show-all">Show All Quotes</button>
+      <div class="quotes"></div>
+    </div>
+  </body>
+</html>
